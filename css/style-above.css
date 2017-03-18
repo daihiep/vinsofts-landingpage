@@ -74,7 +74,10 @@ ul, ol{
 }
 .quality ul.skill li{
 	width: 100%;
-	background-color: #d8d2bc;
+	background: -webkit-linear-gradient(top, #fbfaf8 30%, #c2c1be 70%);
+	background: -moz-linear-gradient(top, #fbfaf8 30%, #c2c1be 70%);
+	background: -o-linear-gradient(top, #fbfaf8 30%, #c2c1be 70%);
+	background: linear-gradient(to bottom, #fbfaf8 30%, #c2c1be 70%);
 	font-size: 24px;
 	margin-top: 25px;
 	padding: 5px;
@@ -88,19 +91,22 @@ ul, ol{
 .quality ul.skill li i{
 	float: left;
 	margin-left: -30px;
-	color: #FFF;
+	color: #ababaa;
 	display: none;
 	padding: 5px 0;
 }
 .quality ul.skill li:hover{
-	background-color: #FFF;
+	background: -webkit-linear-gradient(top, #c2c1be 30%, #ababaa 70%);
+	background: -moz-linear-gradient(top, #c2c1be 30%, #ababaa 70%);
+	background: -o-linear-gradient(top, #c2c1be 30%, #ababaa 70%);
+	background: linear-gradient(to bottom, #c2c1be 30%, #ababaa 70%);
 }
 .quality ul.skill li:hover i{
 	display: block;
 }
 .quality ul.exp li{
 	width: 100%;
-	color: #d8d2bc;
+	color: #efefee;
 	margin-top: 20px;
 	text-transform: capitalize;
 	font-size: 40px;
@@ -123,6 +129,8 @@ ul, ol{
 /*Design*/
 .design{
 	width: 100%;
+	color: #FFFFFF;
+	border-bottom: 2px solid #000;
 }
 .design .cell{
 	height: 216px;
@@ -147,30 +155,39 @@ ul, ol{
 	margin: auto;
 }
 .design .cell-11{
-	background-color: #a864a8;
+	background: -webkit-linear-gradient(top, #a5509d 30%, #743e8f 80%); 
+	background:    -moz-linear-gradient(top, #a5509d 30%, #743e8f 80%); 
+    background:      -o-linear-gradient(top, #a5509d 30%, #743e8f 80%); 
+    background:         linear-gradient(to bottom, #a5509d 30%, #743e8f 80%);
 	line-height: 164px;
 	position: relative;
 }
 .design .cell-11::after{
 	display: block;
 	content: "";
-    position: absolute;
-    z-index: 1;
-    height: 0px;
-    width: 0px;
-    border-width: 30px;
-    border-color: #a864a8;
-    border-style: solid;
-    border-top-color: transparent;
-    border-right-color: transparent;
-    border-bottom-color: transparent;
-    right: -58px;
-    top: 50%;
-    margin-top: -30px;
+	position: absolute;
+	z-index: 1;
+	height: 50px;
+	width: 50px;
+	right: -25px;
+	top: 50%;
+    margin-top: -25px;
+    background: -webkit-linear-gradient(top, #924998, #874594);
+	background: -moz-linear-gradient(top, #924998, #874594);
+	background: -o-linear-gradient(top, #924998, #874594);
+    background: linear-gradient(to bottom left, #A24F9C, #834393);
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
     
 }
 .design .cell-14{
-	background-color: #6fead8;
+	background: -webkit-linear-gradient(top, #149683 30%, #1bf8d8 80%);
+	background: -moz-linear-gradient(top, #149683 30% , #1bf8d8 80%);
+	background: -o-linear-gradient(top, #149683 30%, #1bf8d8 80%);
+	background: linear-gradient(to bottom, #149683 30%, #1bf8d8 80%);
 	position: relative;
 	padding: 7%;
 }
@@ -178,107 +195,133 @@ ul, ol{
 	display: block;
 	content: "";
 	position: absolute;
-	z-index: 1;
-	height: 0px;
-	width: 0px;
-	border-width: 30px;
-	border-color: #6fead8;
-	border-style: solid;
-	border-top-color: transparent;
-	border-bottom-color: transparent;
-	border-left-color: transparent;
-	left: -58px;
+	height: 50px;
+	width: 50px;
+	left: -25px;
 	top: 50%;
-    margin-top: -30px;
+    margin-top: -25px;
+    background: -webkit-linear-gradient(top, #149E8A, #19DBBF);
+	background: -moz-linear-gradient(top, #149E8A, #19DBBF);
+	background: -o-linear-gradient(top, #149E8A, #19DBBF);
+    background: linear-gradient(to bottom left, #149E8A, #19DBBF);
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
 }
 .design .cell-22{
-	background-color: #21759a;
+	background: -webkit-linear-gradient(top, #21759a 30%, #2bcbcd 80%);
+	background: -moz-linear-gradient(top, #21759a 30% , #2bcbcd 80%);
+	background: -o-linear-gradient(top, #21759a 30%, #2bcbcd 80%);
+	background: linear-gradient(to bottom, #21759a 20%, #6994e3 50%, #2bcbcd 80%);
 	padding-top: 13%;
 }
 .design .cell-22::after{
 	display: block;
 	content: "";
 	position: absolute;
-	z-index: 1;
-	height: 0px;
-	width: 0px;
-	border-width: 30px;
-	border-color: #21759a;
-	border-style: solid;
-	border-top-color: transparent;
-	border-bottom-color: transparent;
-	border-left-color: transparent;
-	left: -58px;
+	z-index: -1;
+	height: 50px;
+	width: 50px;
+	left: -25px;
 	top: 50%;
-    margin-top: -30px;
+    margin-top: -25px;
+    background: -webkit-linear-gradient(top, #4383BC, #48B1D7);
+	background: -moz-linear-gradient(top, #4383BC, #48B1D7);
+	background: -o-linear-gradient(top, #4383BC, #48B1D7);
+    background: linear-gradient(to bottom left, #4383BC, #6995E3, #48B1D7);
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
 }
 .design .cell-23{
-	background-color: #f36c53;
+	background: -webkit-linear-gradient(top, #f95745 30%, #f091c6 80%);
+	background: -moz-linear-gradient(top, #f95745 30% , #f091c6 80%);
+	background: -o-linear-gradient(top, #f95745 30%, #f091c6 80%);
+	background: linear-gradient(to bottom, #f95745 30%, #f091c6 80%);
 	padding-top: 13%;
 }
 .design .cell-23::after{
 	display: block;
 	content: "";
-    position: absolute;
-    z-index: 1;
-    height: 0px;
-    width: 0px;
-    border-width: 30px;
-    border-color: #f36c53;
-    border-style: solid;
-    border-top-color: transparent;
-    border-right-color: transparent;
-    border-bottom-color: transparent;
-    right: -58px;
-    top: 50%;
-    margin-top: -30px;
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	right: -25px;
+	top: 50%;
+    margin-top: -25px;
+    background: -webkit-linear-gradient(top, #F85C50, #F382A4);
+	background: -moz-linear-gradient(top, #F85C50, #F382A4);
+	background: -o-linear-gradient(top, #F85C50, #F382A4);
+    background: linear-gradient(to bottom left, #F85C50, #F382A4);
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
 }
 .design .cell-31{
-	background-color: #cdcb67;
+	background: -webkit-linear-gradient(top, #c8c225 30%, #8c8a28 80%);
+	background: -moz-linear-gradient(top, #c8c225 30% , #8c8a28 80%);
+	background: -o-linear-gradient(top, #c8c225 30%, #8c8a28 80%);
+	background: linear-gradient(to bottom, #c8c225 30%, #8c8a28 80%);
 	padding: 7%;
 }
 .design .cell-31::after{
 	display: block;
 	content: "";
-    position: absolute;
-    z-index: 1;
-    height: 0px;
-    width: 0px;
-    border-width: 30px;
-    border-color: #cdcb67;
-    border-style: solid;
-    border-top-color: transparent;
-    border-right-color: transparent;
-    border-bottom-color: transparent;
-    right: -58px;
-    top: 50%;
-    margin-top: -30px;
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	right: -25px;
+	top: 50%;
+    margin-top: -25px;
+    background: -webkit-linear-gradient(top, #C5C025, #9B9827);
+	background: -moz-linear-gradient(top, #C5C025, #9B9827);
+	background: -o-linear-gradient(top, #C5C025, #9B9827);
+    background: linear-gradient(to bottom left, #C5C025, #9B9827);
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
 }
 .design .cell-34{
-	background-color: #51a3b9;
+	background: -webkit-linear-gradient(top, #4a63f6 30%, #13c9f5 80%);
+	background: -moz-linear-gradient(top, #4a63f6 30% , #13c9f5 80%);
+	background: -o-linear-gradient(top, #4a63f6 30%, #13c9f5 80%);
+	background: linear-gradient(to bottom, #4a63f6 30%, #13c9f5 80%);
 	padding: 7%;
 }
 .design .cell-34::after{
 	display: block;
 	content: "";
 	position: absolute;
-	z-index: 1;
-	height: 0px;
-	width: 0px;
-	border-width: 30px;
-	border-color: #51a3b9;
-	border-style: solid;
-	border-top-color: transparent;
-	border-bottom-color: transparent;
-	border-left-color: transparent;
-	left: -58px;
+	height: 50px;
+	width: 50px;
+	left: -25px;
 	top: 50%;
-    margin-top: -30px;
+    margin-top: -25px;
+    background: -webkit-linear-gradient(top, #466BF6, #20B0F5);
+	background: -moz-linear-gradient(top, #466BF6, #20B0F5);
+	background: -o-linear-gradient(top, #466BF6, #20B0F5);
+    background: linear-gradient(to bottom left, #466BF6, #20B0F5);
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
 }
 
 /*Work*/
 .work{
-	background-color: #d7d7d7;
+	background: -webkit-linear-gradient(top, #f8f8f8, #949492);
+	background: -moz-linear-gradient(top, #f8f8f8, #949492);
+	background: -o-linear-gradient(top, #f8f8f8, #949492);
+	background: linear-gradient(to bottom, #f8f8f8, #949492);
 }
 .work .title h1{
 	color: #030303;
